@@ -1,18 +1,52 @@
-The project involves the following steps:
+This project is a Python-based application that provides a simple terminal-based interface for managing flight details at an airport. It allows users to add, list, and search for flight information. The application stores the flight data in a CSV file named Details.csv.
+Features
 
-Problem Statement: Identifying the problem statement related to the management of academics and extracurricular activities among students.
-Data Collection: Collecting data using various techniques related to the identified problem statement.
-Exploratory Data Analysis (EDA): Performing EDA on the collected dataset using Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn.
-Data Cleaning and Preprocessing: Cleaning and preprocessing the dataset, including handling missing values, duplicates, and data types.
-Data Visualization: Creating various visualizations, such as histograms, pie charts, bar charts, and heatmaps, to gain insights from the data.
-Key Insights: Presenting the key insights obtained from the EDA using charts and visualizations.
+Add Flight Details: Users can enter details such as flight number, flight name, airline name, arrival and departure destinations, timings, passenger count, and crew member count. The application generates a unique travel ID for each flight and stores the details in the CSV file.
+List All Flight Details: Users can view all the flight details stored in the CSV file. The application reads the file and displays each entry on the terminal.
+Search for Specific Flight: Users can search for a specific flight by entering the flight number. The application searches the CSV file for the provided flight number and displays the corresponding flight details if found.
+Analysis:
 
-The project covers various aspects of EDA, including:
+The application analyzes the data stored in the CSV file to determine the maximum number of passengers who traveled with each airline.
+It also analyzes the data to find the airline with the maximum number of crew members.
 
-Data cleaning and preprocessing
-Checking for missing values and duplicates
-Analyzing data distributions (numerical and categorical)
-Visualizing data using different chart types (histograms, pie charts, bar charts, heatmaps)
-Exploring relationships between variables (e.g., year, gender, semester/trimester, participation in extracurricular activities)
 
-The provided document contains the detailed code and explanations for each step of the EDA process, along with the visualizations and insights obtained from the analysis..
+
+Usage
+
+Run the Python script in a terminal or IDE.
+The application will display a menu with the following options:
+
+
+
+Add Flight Details
+
+
+
+
+List All Flight Details
+
+
+
+
+Search for Specific Flight
+
+
+
+
+Exit
+
+
+
+
+Enter the corresponding option number to perform the desired action.
+Follow the prompts to provide the required information or view the results.
+
+Dependencies
+The following Python libraries are used in this project:
+
+random: Used to generate random numbers for creating unique travel IDs.
+
+File Structure
+
+aiport_management_system_.py: The main Python script containing the application logic.
+Details.csv: The CSV file where flight details are stored.
