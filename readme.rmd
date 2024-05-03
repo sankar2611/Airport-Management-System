@@ -15,4 +15,4 @@ Analyzing data distributions (numerical and categorical)
 Visualizing data using different chart types (histograms, pie charts, bar charts, heatmaps)
 Exploring relationships between variables (e.g., year, gender, semester/trimester, participation in extracurricular activities)
 
-The provided document contains the detailed code and explanations for each step of the EDA process, along with the visualizations and insights obtained from the analysis.
+The provided document contains the detailed code and explanations for each step of the EDA process, along with the visualizations and insights obtained from the analysis..
